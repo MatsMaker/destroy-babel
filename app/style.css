@@ -1,0 +1,52 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    width: 100%;
+    height: 0px;
+    padding: 0;
+    margin: 0;
+}
+
+.center {
+    margin-left: auto;
+    margin-right: auto;
+    width: 800px;
+}
+
+.btn-ctr {
+    cursor: pointer;
+    padding: 5px;
+    background-color: cornflowerblue;
+    color: azure;
+    border: 1px solid coral;
+    border-radius: 3px;
+    min-width: 24px;
+}
+
+.btn-ctr:active {
+    background-color: coral;
+}
+
+.btn-group {
+    display: inline-block;
+    margin: 16px;
+}
+
+#number-of-shapes {
+    width: 26px;
+    display: inline-block;
+}
+
+.num-area,
+.area-occupied {
+    display: inline-block;
+}
+
+.num-area,
+.area-occupied,
+.area-shapes {
+    margin: 15px;
+}

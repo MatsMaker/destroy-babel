@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Webpack Demo</title>
+    <link rel="stylesheet" type="text/css" href="app/style.css">
+</head>
+<body>
+<div class="center">
+    <h1>Destroy babel</h1>
+    <div class="num-area">Number of shapes: <span id="number-of-shapes"></span></div>
+    <div class="area-occupied">Surface area occupied by shapes: <span id="surface-area-occupied"></span></div>
+    <canvas id="game-view"></canvas>
+    <div class="btn-group">
+        <button id="up-generated" class="btn-ctr">+</button>
+        <button id="down-generated" class="btn-ctr">-</button>
+        <span>Number of shapes per sec</span>
+    </div>
+    <div class="btn-group">
+        <button id="up-gravity" class="btn-ctr">+</button>
+        <button id="down-gravity" class="btn-ctr">-</button>
+        <span>Gravity value</span>
+    </div>
+</div>
+<script src="build/bundle.js"></script>
+</body>
+</html>
