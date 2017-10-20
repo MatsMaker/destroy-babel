@@ -3,7 +3,6 @@ import State from './State';
 import View from './View';
 
 import ShapesGenerator from './generators/Shapes';
-import Physics from "./Physics";
 
 const DELTA_FREQUENCY = 20;
 const DELTA_GRAVITATION = 0.5;

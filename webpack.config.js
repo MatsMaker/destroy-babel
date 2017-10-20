@@ -19,6 +19,11 @@ module.exports = {
     path: path.resolve(__dirname, 'build'),
     publicPath: "build/"
   },
+  resolve: {
+    alias: {
+      'PhysicsJs': path.resolve(__dirname, 'node_modules/PhysicsJS/dist/physicsjs.min.js')
+    }
+  },
   module: {
     loaders: [
       {

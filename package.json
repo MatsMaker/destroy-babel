@@ -12,6 +12,7 @@
   "author": "MatsMaker",
   "license": "ISC",
   "dependencies": {
+    "PhysicsJS": "git+https://github.com/wellcaffeinated/PhysicsJS.git#e6d01beee85afdd9786bba1065639795ab995dcd",
     "lodash": "4.17.4",
     "pixi.js": "4.5.6",
     "randomcolor": "0.5.3",
